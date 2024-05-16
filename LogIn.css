@@ -1,0 +1,23 @@
+body{
+    
+    background-image: url("https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg");
+   
+
+}
+.container{
+    display: flex;
+    justify-content: center ;
+    margin-top: 170px; 
+}
+form{
+    border: 2px solid black;
+    padding: 40px;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+input{
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+
