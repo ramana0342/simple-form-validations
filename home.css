@@ -1,6 +1,21 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://t4.ftcdn.net/jpg/02/16/47/33/360_F_216473351_FCLq1pZQOBFrgcyPBphKvBd8Z5wjD1dI.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .container{
     background-color: rgb(225,225,225);
-    margin-top: 200px;
     padding: 50px !important;
     border:  2px solid black;
     width: fit-content !important;
@@ -12,4 +27,14 @@
     margin: 10px;
     width: 200px;
 
+}
+
+
+@media (min-width: 300px) {
+    
+
+    body {
+        background-size: 100% 100%;
+    }
+   
 }
