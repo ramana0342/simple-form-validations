@@ -16,28 +16,48 @@ let passwordMatch = document.getElementById("PassWordMatching");
 let userAllDetails = document.getElementById("EnterAllDetails");
 
 
-userName.addEventListener("change",()=>{
+userName.addEventListener("input",()=>{
       UserEmail.innerHTML ="";
       passwordMatch.innerHTML ="";
       userAllDetails.innerHTML="";
+      passwordLength.style.color="";
+      passwordSpecialCase.style.color ="";
+      passwordUpper.style.color="";
+      passwordLower.style.color="";
+      passworDigit.style.color =""
 })
 
-emailId .addEventListener("change",()=>{
+emailId .addEventListener("input",()=>{
       UserEmail.innerHTML ="";
       passwordMatch.innerHTML ="";
       userAllDetails.innerHTML="";
+      passwordLength.style.color="";
+      passwordSpecialCase.style.color ="";
+      passwordUpper.style.color="";
+      passwordLower.style.color="";
+      passworDigit.style.color =""
 })
 
-password1 .addEventListener("change",()=>{
+password1 .addEventListener("input",()=>{
       UserEmail.innerHTML ="";
       passwordMatch.innerHTML ="";
       userAllDetails.innerHTML="";
+      passwordLength.style.color="";
+      passwordSpecialCase.style.color ="";
+      passwordUpper.style.color="";
+      passwordLower.style.color="";
+      passworDigit.style.color =""
 })
 
-password2.addEventListener("change",()=>{
+password2.addEventListener("input",()=>{
       UserEmail.innerHTML ="";
       passwordMatch.innerHTML ="";
       userAllDetails.innerHTML="";
+      passwordLength.style.color="";
+      passwordSpecialCase.style.color ="";
+      passwordUpper.style.color="";
+      passwordLower.style.color="";
+      passworDigit.style.color =""
 })
 
 

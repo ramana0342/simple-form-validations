@@ -7,17 +7,18 @@ body{
     justify-content: center ;
     height: 100vh;
     align-items: center;
-    
 }
 .form{
     border: 2px solid black;
-    padding: 10px 40px;
+    padding: 0px 30px;
     background-color:cadetblue;
+    padding-bottom: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    
 }
 input{
     padding: 5px;
-    margin: 5px 0px;
+    
 }
 .SignUpBtn{
     display: flex;
@@ -25,9 +26,6 @@ input{
 }
 .signBtn{
     width :150px;
-    margin-top: 10px;
-    color: aquamarine;
-   
 }
 li{
     text-decoration: none;
